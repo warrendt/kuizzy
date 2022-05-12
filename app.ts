@@ -10,59 +10,57 @@ const timeUpEvent = new events.EventEmitter()
 
 const questions = [
     {
-        text: "In Spain, people eat 12 ____ right before midnight. One for each bell strike.",
-        time: 5,
-        answers: [
-            "olives",
-            "tapas",
-            "grapes",
-            "pieces of bread",
-        ],
-        correctAnswer: "grapes",
-    },
-    {
-        text: "Which country has a giant hour glass wheel that needs to be turned on its head at midnight?",
+        text: "What month and year did we launch our Azure DC's ?",
         time: 10,
         answers: [
-            "Hungary",
-            "Romania",
-            "Belgium",
-            "Switzerland",
+            "April 1975",
+            "February 2017",
+            "June 2019",
+            "December 2018",
         ],
-        correctAnswer: "Hungary",
+        correctAnswer: "December 2018",
     },
     {
-        text: "In Belgium, kids prepare ______ in school for their grandparents and godparents.",
+        text: "Which product allows you to manage resources from in almost any location in a consistent manner?",
         time: 10,
         answers: [
-            "small gifts",
-            "party crowns and hats",
-            "songs",
-            "New Year's letters",
+            "Microsoft Defender",
+            "Azure Sentinel",
+            "Azure Arc",
+            "AWS",
         ],
-        correctAnswer: "New Year's letters",
+        correctAnswer: "Azure Arc",
     },
     {
-        text: "Which country calls New Year's Eve Hogmanay?",
+        text: "What does AVS stand for ?",
         time: 10,
         answers: [
-            "Ireland",
-            "Scotland",
-            "Greenland",
-            "England",
+            "Azure Virtual Services",
+            "Azure VMWare Solution",
+            "Azure VMWare Service",
+            "Azure VMWare Sales",
         ],
-        correctAnswer: "Scotland",
+        correctAnswer: "Azure VMWare Solution",
     },
     {
-        text: "People in Finland predict what'll happen in the new year by _______.",
+        text: "What is the name of the Super User Group Nishan was talking about?",
         time: 10,
         answers: [
-            "reading tea leaves",
-            "reading palms",
-            "casting molten tin into water and interpreting the shape",
-            "visiting fortune tellers",
+            "Amazing Super User Group",
+            "African Super User Group",
+            "Europe Super User Group",
+            "Anglo Super User Group",
         ],
-        correctAnswer: "casting molten tin into water and interpreting the shape",
+        correctAnswer: "African Super User Group",
+    },
+    {
+        text: "Is Azure Synapse available in South Africa North?",
+        time: 10,
+        answers: [
+            "YES",
+            "NO",
+        ],
+        correctAnswer: "YES",
     },
     {
         text: "What is baked into sweets as a good luck token in Bolivia?",
@@ -76,28 +74,6 @@ const questions = [
         correctAnswer: "Coins",
     },
     {
-        text: "In which city in the U.S. do millions of people gather to watch the ball drop at midnight?",
-        time: 10,
-        answers: [
-            "New York City, NY",
-            "Washington, D.C.",
-            "Austin, TX",
-            "Dallas, TX",
-        ],
-        correctAnswer: "New York City, NY",
-    },
-    {
-        text: "In Russia, people write down wishes on paper. What do they do with them afterwards?",
-        time: 10,
-        answers: [
-            "Put them in a jar and keep it closed for a year.",
-            "Burn them, throw it in a Champagne glass and drink it.",
-            "Burn them in the fire place.",
-            "Tie them to balloons and let them fly away.",
-        ],
-        correctAnswer: "Burn them, throw it in a Champagne glass and drink it.",
-    },
-    {
         text: "People in Colombia believe that _____ will increase their chances to travel in the new year.",
         time: 10,
         answers: [
@@ -109,15 +85,15 @@ const questions = [
         correctAnswer: "running around the block with their suitcases",
     },
     {
-        text: "Why do Ecuadorians burn homemade puppets at midnight?",
+        text: "BONUS Question - Which cryptocurrency completely dumped to 0 this week?",
         time: 10,
         answers: [
-            "It's a replacement for fireworks, as those are illegal.",
-            "To burn away the old year and start with a clean slate.",
-            "They believe puppets are evil.",
-            "To protect themselves against spirits.",
+            "WAVES",
+            "BITCOIN",
+            "APE",
+            "LUNA",
         ],
-        correctAnswer: "To burn away the old year and start with a clean slate.",
+        correctAnswer: "LUNA",
     },
 ]
 

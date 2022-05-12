@@ -39,7 +39,7 @@ socket.on("question", (question) => {
 })
 
 socket.on("connected", async _ => {
-    const name = await swal("Your name:", {
+    const name = await swal("Welcome to the CSU Quiz! Please enter your name and Click Join!", {
         content: "input",
         button: "Join",
         closeOnClickOutside: false,
@@ -57,7 +57,7 @@ socket.on("connected", async _ => {
 
 socket.on("correct", async _ => {
     swal({
-        title: "Correct!",
+        title: "Correct! Woohoo!",
         text: "Keep it up :)",
         icon: "success",
         buttons: false,
@@ -68,7 +68,7 @@ socket.on("correct", async _ => {
 
 socket.on("incorrect", async _ => {
     swal({
-        title: "Incorrect!",
+        title: "Incorrect! LOL, someone is not paying attention....",
         text: "Better luck next time :(",
         icon: "error",
         buttons: false,

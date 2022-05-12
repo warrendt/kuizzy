@@ -189,6 +189,6 @@ io.on("connection", (socket: Socket) => {
 })
 
 app.use(express.static("public"))
-http.listen(3000, () => {
-    console.log("listening on *:3000")
+http.listen(8080, () => {
+    console.log("listening on *:8080")
 })

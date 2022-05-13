@@ -10,15 +10,15 @@ const timeUpEvent = new events.EventEmitter()
 
 const questions = [
     {
-        text: "What month and year did we launch our Azure DC's ?",
+        text: "What month and year did we launch our Azure DC's?",
         time: 10,
         answers: [
             "April 1975",
             "February 2017",
-            "June 2019",
+            "March 2019",
             "December 2018",
         ],
-        correctAnswer: "December 2018",
+        correctAnswer: "March 2019",
     },
     {
         text: "Which product allows you to manage resources from in almost any location in a consistent manner?",
@@ -32,7 +32,7 @@ const questions = [
         correctAnswer: "Azure Arc",
     },
     {
-        text: "What does AVS stand for ?",
+        text: "What does AVS stand for?",
         time: 10,
         answers: [
             "Azure Virtual Services",
@@ -59,30 +59,32 @@ const questions = [
         answers: [
             "YES",
             "NO",
+            "MAYBE",
+            "NOT YET",
         ],
         correctAnswer: "YES",
     },
     {
-        text: "What is baked into sweets as a good luck token in Bolivia?",
+        text: "What is Venecia's favorite product?",
         time: 10,
         answers: [
-            "Pomegranate seeds",
-            "Grapes",
-            "Almonds",
-            "Coins",
+            "Keyvault",
+            "Sentinel",
+            "Defender",
+            "Purview",
         ],
-        correctAnswer: "Coins",
+        correctAnswer: "Sentinel",
     },
     {
-        text: "People in Colombia believe that _____ will increase their chances to travel in the new year.",
+        text: "When does the new South Africa West DC go GA?",
         time: 10,
         answers: [
-            "packing their suitcases by midnight",
-            "making a wish on their passports",
-            "buying a new suitcase by midnight",
-            "running around the block with their suitcases",
+            "It is live!",
+            "Next Year",
+            "Next Quarter",
+            "Next Month",
         ],
-        correctAnswer: "running around the block with their suitcases",
+        correctAnswer: "Next Month",
     },
     {
         text: "BONUS Question - Which cryptocurrency completely dumped to 0 this week?",
